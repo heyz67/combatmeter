@@ -7,7 +7,6 @@ A lightweight, always-on-top damage meter for Champions Online, in the style of 
 ## Meters
 - **Damage, Healing, Taken and Deaths** views, switched with buttons in the header.
 - Ranked bars with total, DPS and percentage for each player.
-- Smooth scrolling and a gold, stylized selected button.
 
 ## Breakdowns
 Click a player to open a breakdown window (it can open to the left or right of the meter):
@@ -23,14 +22,14 @@ Click a player to open a breakdown window (it can open to the left or right of t
 
 ## Multiple windows
 - **Create new window** opens another meter, for example Damage and Healing side by side.
-- Place it above, left, right or below the main window.
-- Extra windows are always on top and keep their own view buttons, minimize and close.
 
 ## Customization (Settings)
 - **Toggle column**: choose which columns show in the main list, ability breakdown, target breakdown and last-50-hits window.
 - **Style**: size, opacity, global font (Arial by default), and a bar color for each damage type.
-- **Minimize toward**: top, bottom, left or right.
-- **Breakdown shows** on the left or right, **New segment after** a set idle time, **My character** highlighting, and **Always on top**.
+- **Minimize toward**: top, or bottom.
+- **Breakdown shows** top, bottom, left or right.
+- **New segment after** decides after how much idle time a new segment is created
+- **My character** choose which character is displayed when window is minimized.
 - Window size, position and settings are remembered between runs.
 
 ## Logs
